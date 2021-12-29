@@ -62,6 +62,8 @@ button {
   background-color: var(--color-secondary);
   position: fixed;
   width: 100%;
+  padding: 1.5rem 0;
+  z-index: 1000;
 }
 
 .nav {
@@ -142,20 +144,23 @@ button {
 }
 
 @media screen and (max-width: 767px) {
-  .header__rating {
+  .home__rating {
     display: none;
   }
 }
 
-.header__hero {
+.home__hero {
+}
+
+.home__img {
   text-align: center;
 }
 
-.header__img-hero {
+.home__img-hero {
   width: 35rem;
 }
 
-.header__heading {
+.home__heading {
   color: var(--color-dark);
 }
 
@@ -164,12 +169,12 @@ button {
   border-radius: 3px;
 }
 
-.header__btn-box {
+.home__btn-box {
   margin-top: 1rem;
   text-align: center;
 }
 
-.header__btn {
+.home__btn {
   width: 100%;
   padding: 1.5rem 2rem;
   background-color: var(--color-primary);
@@ -179,7 +184,7 @@ button {
   margin: 1.5rem 0;
 }
 
-.header__btn-inline {
+.home__btn-inline {
   color: var(--color-primary);
   border-bottom: 1px solid ;
 }
